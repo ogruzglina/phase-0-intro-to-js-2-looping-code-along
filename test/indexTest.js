@@ -12,7 +12,7 @@ describe( 'index.js', () => {
   } );
 
   describe( 'writeCards()', () => {
-
+debugger;
     it( 'returns an array of thank you messages for each name provided to the function', () => {
       expect(writeCards(["Guadalupe", "Ollie", "Aki"], "surprise")).to.deep.eq([
         "Thank you, Guadalupe, for the wonderful surprise gift!",

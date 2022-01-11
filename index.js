@@ -26,20 +26,24 @@ wrapGiftsWithWhile(gifts);
 
 //1st Assignment with for()
 console.log("\n---= 1st Assignment =---");
-
+debugger;
 const names = ["Charlie", "Samip", "Ali"];
+let cards = [];
 function writeCards(names, event) {
-    const cards = [];
+    debugger;
+    cards = [];
     for (let i = 0; i < names.length; i++) {
         cards.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`)
     }
     return cards;
 }
+
 function printCards (cards) {
     for (let i = 0; i < cards.length; i++) {
         console.log(cards[i]);
     }
 }
+
 printCards(writeCards(names, "birthday"));
 
 //2nd Assignment with while()
